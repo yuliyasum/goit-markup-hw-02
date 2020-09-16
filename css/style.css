@@ -54,9 +54,8 @@ font-style: normal;}
 }
 
 .navigation-list-link:hover,
-.navigation-list-link:focus,
-.address-light-theme-mail:hover,
-.address-light-theme-mail:focus
+.navigation-list-link:focus
+
 
  {
     color: var(--accent-color);
@@ -68,8 +67,8 @@ font-style: normal;}
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
-letter-spacing: 0.03em;
 
+letter-spacing: 0.03em;
 color: var(--main-color);
 background-color: var(--secondary-color);
 }
