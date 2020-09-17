@@ -23,7 +23,8 @@ font-style: normal;}
 /*header*/
 
 .navigation-list-link,
-.address-light-theme-mail
+.address-light-theme-mail,
+.address-light-theme-tel
  {
     font-weight: 500;
     font-size: 14px;
@@ -48,13 +49,18 @@ font-style: normal;}
     color: var(--main-color);
 }
 
-.address-light-theme-mail
+.address-light-theme-mail,
+.address-light-theme-tel
 {
     color: var(--link-color);
 }
 
 .navigation-list-link:hover,
-.navigation-list-link:focus
+.navigation-list-link:focus,
+.address-light-theme-mail:hover,
+.address-light-theme-mail:focus,
+.address-light-theme-tel:hover,
+.address-light-theme-tel:focus
 
 
  {
